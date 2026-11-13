@@ -1,0 +1,120 @@
+{
+  "rows": 10,
+  "complete": 8,
+  "coverage": 0.8,
+  "attempts": 15,
+  "attempt_status": {
+    "invalid_output": 7,
+    "ok": 8
+  },
+  "total_generation_seconds": 108.3668105811812,
+  "generation_tokens": 1913,
+  "peak_memory_gb": 4.96899311,
+  "latency_seconds": {
+    "median": 6.938909457996488,
+    "p95": 9.66285205441527
+  },
+  "gpt4_score": {
+    "n": 8,
+    "pearson": 0.7171371656006362,
+    "spearman": 0.8169824462375661,
+    "kendall_tau_b": 0.7426106572325057,
+    "reason": null,
+    "missing_labels": 0,
+    "pearson_ci95": {
+      "interval": [
+        0.4472135954999579,
+        0.917940145298075
+      ],
+      "valid_bootstraps": 974,
+      "requested_bootstraps": 1000,
+      "instruction_groups": 8,
+      "method": "percentile cluster bootstrap",
+      "seed": 42
+    },
+    "mae": 1.25
+  },
+  "human_score": {
+    "n": 0,
+    "pearson": null,
+    "spearman": null,
+    "kendall_tau_b": null,
+    "reason": "fewer than three labelled complete rows",
+    "missing_labels": 10,
+    "pearson_ci95": {
+      "interval": null,
+      "reason": "fewer than three independent instruction groups"
+    },
+    "mae": null
+  },
+  "score_histogram": {
+    "1": 1,
+    "5": 5,
+    "3": 2
+  },
+  "length_bias": {
+    "n": 8,
+    "pearson": 0.1988857464349034,
+    "spearman": 0.27492869961410754,
+    "kendall_tau_b": 0.22917462425705282,
+    "reason": null,
+    "interpretation": "Observational association, not a causal/adversarial bias test"
+  },
+  "planned_rows": 10,
+  "source_rows": 1000,
+  "full_dataset": false,
+  "protocol": {
+    "input_path": "evaluation/benchmark/data/feedback_collection_test.json",
+    "input_sha256": "3950f1f9f787bd512e5082bbc4071376c83e32d2ab0b11be88e236ed38ec69f8",
+    "source_rows": 1000,
+    "indices": [
+      140,
+      271,
+      419,
+      593,
+      627,
+      634,
+      647,
+      691,
+      815,
+      853
+    ],
+    "backend": {
+      "model": "/Users/apple/Projects/prometheus/artifacts/models/prometheus-7b-v1-4bit",
+      "conversion_sha256": "5b770ce24570e45432345fa747fd10af6db622f68ad6f723f04cc0c74886d411",
+      "adapter_sha256": "2d4e1f857c5b31534e78f96269c9a53e5d72bcba56323765c68650f92ba0cd52",
+      "adapter_config_sha256": "913693c0542309c4461eceda8cbdf018f08bbee43e7dbd899fd73b11883b0e59",
+      "backend": "mlx",
+      "chat_format": "llama2"
+    },
+    "generation": {
+      "max_tokens": 256,
+      "temperature": 1.0,
+      "top_p": 0.9,
+      "repetition_penalty": 1.03,
+      "max_input_tokens": 3072,
+      "seed": 42
+    },
+    "mode": "absolute",
+    "repeats": 1,
+    "attempts": 2,
+    "variant": "score_only",
+    "tie_policy": "keep",
+    "tie_rounds": 3,
+    "protocol_version": 1,
+    "runtime_versions": {
+      "mlx": "0.32.4",
+      "mlx-lm": "0.31.3",
+      "torch": "2.10.0",
+      "transformers": "5.22.2",
+      "numpy": "2.4.6",
+      "scipy": "1.17.1"
+    },
+    "implementation_sha256": {
+      "evaluation.py": "f18268f8261ea9783fb77dbc52575675fe88ffc29c518dd65225f236f0cf70f0",
+      "prompts.py": "b4396e53e8925fe8a07723d084e2fd96c4c9982a4e64ecf97726ef30c8fc62c0",
+      "backends.py": "4d92619eac4f55e2da9a6e87a5801ea8679a422b9bc430470cf3c3ee71afeacb"
+    },
+    "sampling": "seeded round-robin label strata"
+  }
+}

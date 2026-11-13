@@ -1,0 +1,84 @@
+{
+  "repo": "uukuguy/prometheus-7b-v1.0-fp16",
+  "revision": "88dddaa493cb90c372e736a7804ceea798e2d369",
+  "files": [
+    {
+      "type": "file",
+      "oid": "cbce74e5c64b97114098962fa58454a57d7fb532",
+      "size": 42,
+      "path": "added_tokens.json"
+    },
+    {
+      "type": "file",
+      "oid": "56198f4ddac138e164439784d7e6baaf4defb7a7",
+      "size": 696,
+      "path": "config.json"
+    },
+    {
+      "type": "file",
+      "oid": "7327bd306f5194519214f3480ea06c6dcd8ceefe",
+      "size": 111,
+      "path": "generation_config.json"
+    },
+    {
+      "type": "file",
+      "oid": "77b2c303a94238e9b8ae8f79af830c3d39cc4a0a",
+      "size": 9976620122,
+      "lfs": {
+        "oid": "108229accf26d843fa384876d6491a9c764b8c56aad3dac85577c1d412e4d59b",
+        "size": 9976620122,
+        "pointerSize": 135
+      },
+      "xetHash": "7263249b0f7a1e067ceea7efbd45c72436341c3605838a2af0f477e09a22efbd",
+      "path": "pytorch_model-00001-of-00002.bin"
+    },
+    {
+      "type": "file",
+      "oid": "48b428c3c4be4c4f772cb85861fd6c031ee4ebec",
+      "size": 3500310787,
+      "lfs": {
+        "oid": "662d938ec3c6d6d16497ec5c716814eeb736a58c67c39288d35f9e66efadef23",
+        "size": 3500310787,
+        "pointerSize": 135
+      },
+      "xetHash": "55a725517a4bf797e363e46dee1616d3593dcc27fd0cca089736b0d247e9ba5a",
+      "path": "pytorch_model-00002-of-00002.bin"
+    },
+    {
+      "type": "file",
+      "oid": "6cb539ad26954898a5f92fdf7c55da168e8ee7ca",
+      "size": 23950,
+      "path": "pytorch_model.bin.index.json"
+    },
+    {
+      "type": "file",
+      "oid": "a52c50a199269393cd1548c7e6a77a654bd2001b",
+      "size": 72,
+      "path": "special_tokens_map.json"
+    },
+    {
+      "type": "file",
+      "oid": "a6e931b92caff4c79c5c56282f1e89569a0ae558",
+      "size": 1842767,
+      "path": "tokenizer.json"
+    },
+    {
+      "type": "file",
+      "oid": "6c00c742ce03c627d6cd5b795984876fa49fa899",
+      "size": 499723,
+      "lfs": {
+        "oid": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+        "size": 499723,
+        "pointerSize": 131
+      },
+      "xetHash": "91bf184ab12793d0754344f9095332759432e666320cc6c07f637af50e36db6f",
+      "path": "tokenizer.model"
+    },
+    {
+      "type": "file",
+      "oid": "0818a94ac4469a6cd4ff6b7e9b77703da30b4619",
+      "size": 994,
+      "path": "tokenizer_config.json"
+    }
+  ]
+}

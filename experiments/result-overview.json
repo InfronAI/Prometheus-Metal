@@ -1,0 +1,17 @@
+{
+  "evaluated_rows_across_protocols": 146,
+  "complete_rows": 136,
+  "generation_attempts": 300,
+  "generation_wall_seconds": 2440.3735364987515,
+  "max_inference_mlx_memory_gb": 5.449302826,
+  "max_training_mlx_memory_gb": 5.314918172,
+  "training_steps_per_variant": {
+    "full": 8,
+    "no_reference": 8,
+    "no_rubric": 8,
+    "score_only": 8
+  },
+  "full_paper_reproduction": false,
+  "hardware": "Apple M1 Pro",
+  "selected_unseen_rows_with_exact_criterion_overlap": []
+}

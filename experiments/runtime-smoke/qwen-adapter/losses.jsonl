@@ -1,0 +1,4 @@
+{"iteration": 0, "kind": "validation", "val_loss": 1.8038280010223389, "val_time": 1.457194291986525}
+{"iteration": 1, "iterations_per_second": 0.23301706577554168, "kind": "train", "learning_rate": 9.999999747378752e-06, "peak_memory": 2.869000196, "tokens_per_second": 23.76774070910525, "train_loss": 1.614058256149292, "trained_tokens": 102}
+{"iteration": 1, "kind": "validation", "val_loss": 1.803210735321045, "val_time": 1.2037922921590507}
+{"iteration": 2, "iterations_per_second": 0.679659817641442, "kind": "train", "learning_rate": 9.999999747378752e-06, "peak_memory": 3.528587028, "tokens_per_second": 78.16087902876583, "train_loss": 2.2004501819610596, "trained_tokens": 217}

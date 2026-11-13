@@ -1,0 +1,34 @@
+[
+  {
+    "criteria": "Does the response explain the science accurately in language an eight-year-old can understand?",
+    "1": "The response is scientifically wrong or unrelated to why leaves look green.",
+    "2": "The response gives a partly correct idea but is confusing or relies on unexplained technical language.",
+    "3": "The response is scientifically accurate but includes important words or ideas that are not explained for a child.",
+    "4": "The response is accurate and mostly easy for a child to understand, with only a minor unexplained detail.",
+    "5": "The response is accurate, clear, and engaging for an eight-year-old, explaining unfamiliar ideas in simple language."
+  },
+  {
+    "criteria": "Does the response politely disagree in a professional email?",
+    "1": "The response is rude or insulting.",
+    "2": "The response disagrees but is dismissive.",
+    "3": "The response is polite but vague about the disagreement.",
+    "4": "The response politely explains the disagreement with a useful reason.",
+    "5": "The response is respectful, clear, and offers a constructive alternative."
+  },
+  {
+    "criteria": "Does the response explain each step of a mathematical solution?",
+    "1": "No useful mathematical steps are provided.",
+    "2": "The response has major errors and missing steps.",
+    "3": "The response reaches a result but omits important steps.",
+    "4": "The response explains nearly all steps correctly.",
+    "5": "The response explains every necessary step clearly and correctly."
+  },
+  {
+    "criteria": "Does the response make a recipe practical for a beginner?",
+    "1": "The recipe cannot be followed.",
+    "2": "Many necessary quantities or steps are missing.",
+    "3": "The recipe is usable but leaves some important details implicit.",
+    "4": "The recipe is clear with only a minor omission.",
+    "5": "The recipe gives clear quantities, timing, and steps a beginner can follow."
+  }
+]

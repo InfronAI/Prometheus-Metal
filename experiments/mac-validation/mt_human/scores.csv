@@ -1,0 +1,9 @@
+source_index,status,mean_score,gpt4_score,human_score,prediction,correct,response_words
+28,ok,,,,chosen,True,
+131,ok,,,,chosen,True,
+482,ok,,,,tie,True,
+558,ok,,,,rejected,False,
+921,ok,,,,chosen,False,
+941,ok,,,,chosen,True,
+1086,ok,,,,chosen,False,
+1095,ok,,,,rejected,False,

@@ -1,0 +1,33 @@
+{
+  "scope": "Final delivery working tree. Exact evaluator hashes at execution are retained in each run manifest.",
+  "sha256": {
+    "configs/full-evaluation.json": "7f3be05a82358f82555384753233e415f46d8523c719c1a9a63d9144470a9c86",
+    "configs/mac-smoke.json": "b45e3f85e05f7eb07027cf066a3a12e4dc888cda407e6128e2681fe994abaf1e",
+    "configs/mac-validation.json": "6362518407a5789c5ac644a67276fe69a027e48eeb1c02b24938dc38a8cc2f6e",
+    "configs/prompt-ablations.json": "e4ed56986fe7cbafa62094bce069762e1201e176518985b2909eee5513a86e62",
+    "pyproject.toml": "41454c2c0afaf4bc192ec666791f2665d4bae37d1a970c7267d115e01aea6847",
+    "requirements-macos.lock": "ec0e57e9fb025a1c1b7fd95f0157c89b3121b87c9004ca4b60d3c769554dc681",
+    "scripts/analyze_dataset.py": "8c3bcfeedc27a6c51bd735be56979d85d447bea9eb7706df53b27dca76cd4430",
+    "scripts/build_report.py": "f9499c06fb145bf5bf404a20529faa197d8b2711b46c422e4f47719dbbec2761",
+    "scripts/download_checkpoint.py": "6debd61c062a515ee46d515c2a1a770422b0e1f35d3e607000928f1d7be108b5",
+    "scripts/record_demo.py": "75d3ce7a99d22650ec15a46dddd71577aa52ce30aa5beca57cf167575766719d",
+    "scripts/reproduce.py": "ea513762931a5ff61371fcc1331d2ea3bc20ae6b7bf4d26d65c81294a8edfc3a",
+    "scripts/verify_artifacts.py": "3d02e0affd9dbd4fcb3d0312799df4ec90450f0761e4206954f55aca55c32257",
+    "src/prometheus_eval/__init__.py": "574c0fb160747c33c9798538c528928dfb9d8fb4f95be086c3fcd0a384969fca",
+    "src/prometheus_eval/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "src/prometheus_eval/analysis.py": "997b7df41fdd5e33c26a94d3517beb5ed385dfcb57d084c45eaa4b11e05c386e",
+    "src/prometheus_eval/backends.py": "4d92619eac4f55e2da9a6e87a5801ea8679a422b9bc430470cf3c3ee71afeacb",
+    "src/prometheus_eval/cli.py": "46a67a2c91f83d7ad017faa3fabacfd309e664cb9e628e51709302425bf10f4e",
+    "src/prometheus_eval/data.py": "fdd38037b44b523dabeced0353aef03307485adf88a9b11c57f2553a8188f659",
+    "src/prometheus_eval/evaluation.py": "f18268f8261ea9783fb77dbc52575675fe88ffc29c518dd65225f236f0cf70f0",
+    "src/prometheus_eval/human.py": "38a9d60224f1605d6eff24000b6822574970a1ed2e2f77255513d2fa2ec20642",
+    "src/prometheus_eval/io.py": "7b6308934bd06ad9e0d64b84a9000fa4d0a572f7db77ccca1e6e848817db7788",
+    "src/prometheus_eval/legacy.py": "a9c6646e458df3a5ef68b5510f0f2a1f5e2dfadae1aecd6cc77bf837c41ae915",
+    "src/prometheus_eval/models.py": "018af63cd3dffe197003d8992fcfac6ebf82b487c0182003e8e5650bc5f94eee",
+    "src/prometheus_eval/prompts.py": "b4396e53e8925fe8a07723d084e2fd96c4c9982a4e64ecf97726ef30c8fc62c0",
+    "src/prometheus_eval/server.py": "44ee8d2106c97c6cd6d7e9e6b9f61eb6eba8151475a4263c7e11940a7ed261ef",
+    "src/prometheus_eval/synthesis.py": "c6905c6947f52cc35ff9872ba7f3818c338896e90b74ed40d8558cedaca4e5bf",
+    "src/prometheus_eval/training.py": "d9ae583ebc814aba2afbe0e3b074fdeab43a84b25f03fce0d06de7f6c1afbba9",
+    "src/prometheus_eval/web/index.html": "2c9191b1c316ef2a50143c74ed3f0427d26229b050592e6166e8662f2fbe9a56"
+  }
+}

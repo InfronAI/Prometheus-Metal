@@ -1,0 +1,82 @@
+{
+  "rows": 8,
+  "complete": 8,
+  "coverage": 1.0,
+  "attempts": 20,
+  "attempt_status": {
+    "ok": 16,
+    "invalid_output": 4
+  },
+  "total_generation_seconds": 126.7431087079458,
+  "generation_tokens": 2586,
+  "peak_memory_gb": 5.449302826,
+  "latency_seconds": {
+    "median": 6.401844395324588,
+    "p95": 7.827478995802814
+  },
+  "correct": 4,
+  "accuracy_valid": 0.5,
+  "accuracy_all": 0.5,
+  "predicted_ties": 1,
+  "exhausted_ties": 0,
+  "categories": {
+    "all": {
+      "rows": 8,
+      "accuracy_all": 0.5
+    }
+  },
+  "macro_accuracy_all": 0.5,
+  "planned_rows": 8,
+  "source_rows": 1431,
+  "full_dataset": false,
+  "protocol": {
+    "input_path": "evaluation/benchmark/data/mt_bench_human_judgement_eval.json",
+    "input_sha256": "63266aa8a3c6327aff814a1a7e33bb017881e849a6e0bd1749a5d813ad016f4f",
+    "source_rows": 1431,
+    "indices": [
+      28,
+      131,
+      482,
+      558,
+      921,
+      941,
+      1086,
+      1095
+    ],
+    "backend": {
+      "model": "/Users/apple/Projects/prometheus/artifacts/models/prometheus-7b-v1-4bit",
+      "conversion_sha256": "5b770ce24570e45432345fa747fd10af6db622f68ad6f723f04cc0c74886d411",
+      "backend": "mlx",
+      "chat_format": "llama2"
+    },
+    "generation": {
+      "max_tokens": 256,
+      "temperature": 1.0,
+      "top_p": 0.9,
+      "repetition_penalty": 1.03,
+      "max_input_tokens": 3072,
+      "seed": 42
+    },
+    "mode": "relative",
+    "repeats": 1,
+    "attempts": 2,
+    "variant": "full",
+    "tie_policy": "keep",
+    "tie_rounds": 3,
+    "protocol_version": 1,
+    "runtime_versions": {
+      "mlx": "0.32.4",
+      "mlx-lm": "0.31.3",
+      "torch": "2.10.0",
+      "transformers": "5.22.2",
+      "numpy": "2.4.6",
+      "scipy": "1.17.1"
+    },
+    "implementation_sha256": {
+      "evaluation.py": "f18268f8261ea9783fb77dbc52575675fe88ffc29c518dd65225f236f0cf70f0",
+      "prompts.py": "b4396e53e8925fe8a07723d084e2fd96c4c9982a4e64ecf97726ef30c8fc62c0",
+      "backends.py": "4d92619eac4f55e2da9a6e87a5801ea8679a422b9bc430470cf3c3ee71afeacb"
+    },
+    "sampling": "seeded round-robin label strata"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "input": {
+    "instruction": "Explain why leaves look green to a curious eight-year-old.",
+    "response": "Leaves are green because they contain chlorophyll, a pigment that absorbs red and blue wavelengths and reflects green wavelengths.",
+    "reference_answer": "Leaves have a green substance called chlorophyll. It helps plants catch sunlight to make their food. Sunlight has many colors mixed together. The leaf uses mostly red and blue light, and bounces green light back to your eyes. That is why you see green!",
+    "rubric": {
+      "criteria": "Does the response explain the science accurately in language an eight-year-old can understand?",
+      "1": "The response is scientifically wrong or unrelated to why leaves look green.",
+      "2": "The response gives a partly correct idea but is confusing or relies on unexplained technical language.",
+      "3": "The response is scientifically accurate but includes important words or ideas that are not explained for a child.",
+      "4": "The response is accurate and mostly easy for a child to understand, with only a minor unexplained detail.",
+      "5": "The response is accurate, clear, and engaging for an eight-year-old, explaining unfamiliar ideas in simple language."
+    }
+  },
+  "backend": {
+    "model": "/Users/apple/Projects/prometheus/artifacts/models/prometheus-7b-v1-4bit",
+    "conversion_sha256": "5b770ce24570e45432345fa747fd10af6db622f68ad6f723f04cc0c74886d411",
+    "backend": "mlx",
+    "chat_format": "llama2"
+  },
+  "generation": {
+    "max_tokens": 384,
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "repetition_penalty": 1.03,
+    "max_input_tokens": 3072,
+    "seed": 42
+  },
+  "status": "ok",
+  "score": 4,
+  "feedback": "The response provided is scientifically accurate and explains the concept of chlorophyll and how it reflects green light, which is the main reason why leaves look green to an eight-year-old. However, it doesn't use a simple language that is easy for a child to understand, and it doesn't explain the concept of colors and light mixed together, which could be important for a child to understand the process of why leaves look green. So the overall score is 4.",
+  "attempts": [
+    {
+      "text": "The response provided is scientifically accurate and explains the concept of chlorophyll and how it reflects green light, which is the main reason why leaves look green to an eight-year-old. However, it doesn't use a simple language that is easy for a child to understand, and it doesn't explain the concept of colors and light mixed together, which could be important for a child to understand the process of why leaves look green. So the overall score is 4. [RESULT] 4",
+      "elapsed_seconds": 6.081493124831468,
+      "prompt_tokens": 497,
+      "generation_tokens": 108,
+      "generation_tps": 36.52866722435198,
+      "prompt_tps": 211.17021384313745,
+      "peak_memory_gb": 4.489177176,
+      "finish_reason": "stop",
+      "seed": 42,
+      "status": "ok"
+    }
+  ]
+}

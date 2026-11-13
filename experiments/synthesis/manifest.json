@@ -1,0 +1,27 @@
+{
+  "teacher": {
+    "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+    "backend": "mlx",
+    "chat_format": "tokenizer"
+  },
+  "seed": 42,
+  "rubrics": 1,
+  "instructions_per_rubric": 1,
+  "seed_origin": "new illustrative rubrics; not the paper's original 50 seeds",
+  "environment": {
+    "timestamp_utc": "2026-11-12T13:39:29.264186+00:00",
+    "platform": "macOS-26.6.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "python": "3.11.16",
+    "packages": {
+      "mlx": "0.32.4",
+      "mlx-lm": "0.31.3",
+      "torch": "2.10.0",
+      "transformers": "5.22.2",
+      "numpy": "2.4.6",
+      "scipy": "1.17.1"
+    },
+    "upstream_commit": "60e2c58956d670532d48ae94fefe278809b98aee"
+  },
+  "method": "Appendix G sequence, local teacher substitution"
+}

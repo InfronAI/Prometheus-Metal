@@ -1,0 +1,29 @@
+{
+  "annotations": 0,
+  "wins": {
+    "left": 0,
+    "right": 0,
+    "tie": 0
+  },
+  "left_win_rate_excluding_ties": null,
+  "human_scores": [],
+  "rejection_reasons": [],
+  "unique_annotators": 0,
+  "correlations_with_mean_human_scores": {
+    "left": {
+      "n": 0,
+      "pearson": null,
+      "spearman": null,
+      "kendall_tau_b": null,
+      "reason": "fewer than three labelled complete rows"
+    },
+    "right": {
+      "n": 0,
+      "pearson": null,
+      "spearman": null,
+      "kendall_tau_b": null,
+      "reason": "fewer than three labelled complete rows"
+    }
+  },
+  "status": "awaiting_human_annotations"
+}

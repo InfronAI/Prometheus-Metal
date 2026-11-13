@@ -1,0 +1,20 @@
+{
+  "repository": "prometheus-eval/Feedback-Collection",
+  "revision": "22a339f961c40b07261bea44ec10849c7440b75f",
+  "sha256": "bd6ae6f6da5035c180b4ac398fce7cdd04a2f6d48bff29ef21ce9865a348ddd5",
+  "environment": {
+    "timestamp_utc": "2026-11-12T14:47:55.191471+00:00",
+    "platform": "macOS-26.6.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "python": "3.11.16",
+    "packages": {
+      "mlx": "0.32.4",
+      "mlx-lm": "0.31.3",
+      "torch": "2.10.0",
+      "transformers": "5.22.2",
+      "numpy": "2.4.6",
+      "scipy": "1.17.1"
+    },
+    "upstream_commit": "60e2c58956d670532d48ae94fefe278809b98aee"
+  }
+}

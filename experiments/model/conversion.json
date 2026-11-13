@@ -1,0 +1,50 @@
+{
+  "source_repository": "uukuguy/prometheus-7b-v1.0-fp16",
+  "source_revision": "88dddaa493cb90c372e736a7804ceea798e2d369",
+  "source_sha256": {
+    "pytorch_model-00001-of-00002.bin": "108229accf26d843fa384876d6491a9c764b8c56aad3dac85577c1d412e4d59b",
+    "pytorch_model-00002-of-00002.bin": "662d938ec3c6d6d16497ec5c716814eeb736a58c67c39288d35f9e66efadef23"
+  },
+  "bits": 4,
+  "group_size": 64,
+  "method": "source floating-point weights to FP16 to MLX affine",
+  "environment": {
+    "timestamp_utc": "2026-11-12T13:57:54.261749+00:00",
+    "platform": "macOS-26.6.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "python": "3.11.16",
+    "packages": {
+      "mlx": "0.32.4",
+      "mlx-lm": "0.31.3",
+      "torch": "2.10.0",
+      "transformers": "5.22.2",
+      "numpy": "2.4.6",
+      "scipy": "1.17.1"
+    },
+    "upstream_commit": "60e2c58956d670532d48ae94fefe278809b98aee"
+  },
+  "output_sha256": {
+    "added_tokens.json": "d606246b713e31b1b43dfe913554dd47819089b9e44b9ebaa294eda2589a6b4c",
+    "config.json": "3294c949d78e589eb7c6701c3ff6f70286a968374f8e7f08f2fc272962615561",
+    "generation_config.json": "e9adfcfdc532213ae59497e875478d95451d063640fb51755bc63c1070b9701d",
+    "model-00001.safetensors": "103284ef0ce9988f81eccde9c2cffd78390ac05d4f247b4e0d07df61370ea1ce",
+    "model-00002.safetensors": "2542ecb38a27ac184f78bf5ce3a8090e964fbc2ba7ad00a0cf4770378e01cdb1",
+    "model-00003.safetensors": "305ffa748890f636439e600bf5914ca4b1247eec1ca585bc42e65bcb57298f39",
+    "model-00004.safetensors": "f3e0d2406dea5b839ef770a8a2f8cdd427be0e4b5f42cc540103c64fc9613735",
+    "model-00005.safetensors": "dfb5325d523af9edbf476ba5d9304c3056d518084c2431464d4c2a14e332f1b6",
+    "model-00006.safetensors": "c2062d5c4eef4742cbd8dc4559a8a3e2aae783a06355521e4b8ca9771149a6df",
+    "model-00007.safetensors": "bbe7d2d69015dbe9dbb076ee83124462ffb831922af1a2cd9adc08d579d1d34f",
+    "model-00008.safetensors": "3735126c96678f09d5c790aec9ffcbec7f78398a592ea0e8845512e4a0d99b51",
+    "model-00009.safetensors": "52b6c177779ac7bfed6492dfdc1a0de33a1316ee25f06c09478ee02082e4f32f",
+    "model-00010.safetensors": "c8b879b5b9b4c9f9950138954718d76cb30f08312cc8405167096d863332c114",
+    "model-00011.safetensors": "45f43a4a8b574796b61306c9feb6bbaa64d7866791a0655220ca6df008c6f46a",
+    "model-00012.safetensors": "e9927bdc2b59596ed6a7da6da3f5638c246beaaec2b7cdbd15e1d04c8fa4486c",
+    "model-00013.safetensors": "1ae771c54ecbce02369ab3235ffea6ae549909eb9d8c9cb3c4a3ccbc0baae83b",
+    "model-00014.safetensors": "66e8c38191011f93e6078f31697773cded11d5501f8859b269996af0208ac5c7",
+    "model.safetensors.index.json": "08eea0da6545d1eaf45f29e07f732220ff86c38df588975a7e814ddc20589ec0",
+    "special_tokens_map.json": "96bdbb8504d9967606e5f661ccc7cbbac44a3661af863a7a58614670a0ccab33",
+    "tokenizer.json": "bcd04f0eadf90287bd26e1a183ac487d8a141b09b06aecb7725bbdd343640f2e",
+    "tokenizer.model": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+    "tokenizer_config.json": "e4c9d3d06163d86e0089012d1c9f35c1c2e772eacbf979936fffeeb2f4c19c96"
+  }
+}

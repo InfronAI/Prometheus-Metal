@@ -1,0 +1,52 @@
+[
+  {
+    "rubric": 0,
+    "instruction": 0,
+    "score": 1,
+    "reference_sentences": 4,
+    "response_sentences": 4,
+    "length_matched": true,
+    "feedback_score_matches": true,
+    "distinct_from_reference": true
+  },
+  {
+    "rubric": 0,
+    "instruction": 0,
+    "score": 2,
+    "reference_sentences": 4,
+    "response_sentences": 4,
+    "length_matched": true,
+    "feedback_score_matches": true,
+    "distinct_from_reference": true
+  },
+  {
+    "rubric": 0,
+    "instruction": 0,
+    "score": 3,
+    "reference_sentences": 4,
+    "response_sentences": 4,
+    "length_matched": true,
+    "feedback_score_matches": true,
+    "distinct_from_reference": true
+  },
+  {
+    "rubric": 0,
+    "instruction": 0,
+    "score": 4,
+    "reference_sentences": 4,
+    "response_sentences": 4,
+    "length_matched": true,
+    "feedback_score_matches": true,
+    "distinct_from_reference": true
+  },
+  {
+    "rubric": 0,
+    "instruction": 0,
+    "score": 5,
+    "reference_sentences": 4,
+    "response_sentences": 4,
+    "length_matched": true,
+    "feedback_score_matches": true,
+    "distinct_from_reference": true
+  }
+]

@@ -1,0 +1,5 @@
+.venv/bin/python -m pytest -q
+.................................                                        [100%]
+33 passed in 2.96s
+.venv/bin/ruff check src tests scripts
+All checks passed!

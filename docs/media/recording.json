@@ -1,0 +1,43 @@
+{
+  "recorded_utc": "2026-11-12T14:50:19.907283+00:00",
+  "backend": {
+    "model": "/Users/apple/Projects/prometheus/artifacts/models/prometheus-7b-v1-4bit",
+    "conversion_sha256": "5b770ce24570e45432345fa747fd10af6db622f68ad6f723f04cc0c74886d411",
+    "backend": "mlx",
+    "chat_format": "llama2"
+  },
+  "evaluation_wall_seconds": 6.5034832917153835,
+  "browser_console_errors": [],
+  "viewport": [
+    1440,
+    1000
+  ],
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "mp4_speed": "1x, continuous real browser capture",
+  "gif_speed": "4x preview",
+  "checks": [
+    "real evaluation completed",
+    "nonempty feedback and score",
+    "invalid request rejected",
+    "cross-origin request rejected",
+    "desktop and mobile do not overflow",
+    "no browser exceptions"
+  ],
+  "artifacts": {
+    "prometheus-m1-demo.mp4": {
+      "sha256": "61a7d82cbdd3855c271566ef2e181a92b1caff1b8e161d79548de37309afa517",
+      "bytes": 539724
+    },
+    "prometheus-m1-demo.gif": {
+      "sha256": "c9382670d9f8d61fa25799fea93b0a83dd94d905d5e37c3e955a6fdc10104ff3",
+      "bytes": 450546
+    },
+    "demo-poster.png": {
+      "sha256": "86f5bd3a6dc42485b33dcec68e1d85124e00b0efc7f6eb637ba0922b5612cb18",
+      "bytes": 162380
+    }
+  }
+}

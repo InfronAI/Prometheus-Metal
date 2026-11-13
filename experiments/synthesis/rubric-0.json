@@ -1,0 +1,18 @@
+{
+  "original": {
+    "criteria": "Does the response anticipate and address potential user concerns or edge cases in a real-world scenario?",
+    "1": "The response ignores common user worries or fails to consider edge cases entirely.",
+    "2": "The response mentions a few possible issues but does not seriously address them or offers no solutions.",
+    "3": "The response acknowledges a few edge cases but treats them superficially or without practical solutions.",
+    "4": "The response identifies key edge cases and offers reasonable, actionable advice for handling them.",
+    "5": "The response thoroughly anticipates diverse user scenarios, including edge cases, and provides clear, practical, and specific guidance on how to handle them."
+  },
+  "paraphrase": {
+    "criteria": "Does the response foresee and resolve potential user concerns or uncommon situations in a real-world context?",
+    "1": "The response overlooks typical user concerns or completely disregards edge cases.",
+    "2": "The response references a couple of possible issues but does not engage with them meaningfully or provide any remedies.",
+    "3": "The response recognizes a few edge cases but handles them only briefly or without viable solutions.",
+    "4": "The response spots important edge cases and delivers sensible, implementable recommendations for managing them.",
+    "5": "The response thoughtfully anticipates a wide range of user scenarios, including rare or unexpected cases, and offers clear, practical, and detailed instructions for addressing them."
+  }
+}

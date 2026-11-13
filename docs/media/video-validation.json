@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "sha256": "61a7d82cbdd3855c271566ef2e181a92b1caff1b8e161d79548de37309afa517",
+  "decoded_without_errors": true,
+  "ffprobe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1440,
+        "height": 1000,
+        "pix_fmt": "yuv420p",
+        "nb_read_frames": "498"
+      }
+    ],
+    "format": {
+      "duration": "19.920000",
+      "size": "539724"
+    }
+  }
+}

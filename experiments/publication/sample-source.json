@@ -1,0 +1,10 @@
+{
+  "repository": "prometheus-eval/prometheus",
+  "revision": "60e2c58956d670532d48ae94fefe278809b98aee",
+  "path": "train/sample_train_data.json",
+  "source_url": "https://media.githubusercontent.com/media/prometheus-eval/prometheus/60e2c58956d670532d48ae94fefe278809b98aee/train/sample_train_data.json",
+  "sha256": "242a66977fb1784254137630ff98539b9b1de10d245f03f47eeb2e86e6bf6420",
+  "bytes": 4447510,
+  "rows": 1036,
+  "note": "Restored from the original Git LFS object and stored as ordinary Git JSON. Exact hash matches the historical pointer. Not used for the recorded Mac training runs."
+}

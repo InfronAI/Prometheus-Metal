@@ -1,0 +1,9 @@
+{
+  "steps": 8,
+  "final_validation_loss": 1.3329195976257324,
+  "test_loss": 1.2260807752609253,
+  "holdout_examples_evaluated_per_split": 2,
+  "elapsed_seconds": 92.63019291684031,
+  "peak_memory_gb": 5.260368396,
+  "adapter_sha256": "825f49c7c1954ae12f9cbebf2aaf4471191f63fc2f94a74f843957142549e88b"
+}

@@ -1,0 +1,18 @@
+{
+  "original": {
+    "criteria": "Does the response effectively highlight the significance of a data point in a non-technical, engaging way?",
+    "1": "The data point is trivial and uninteresting.",
+    "2": "The response uses technical jargon instead of layman's terms.",
+    "3": "The response is accurate but poorly explained.",
+    "4": "The response is accurate, relevant, and well-illustrated for a layperson.",
+    "5": "The response emphasizes the significance of the data point with real-world context."
+  },
+  "paraphrase": {
+    "criteria": "Does the response effectively highlight the significance of a data point in a non-technical, engaging way?",
+    "1": "The data point is trivial and uninteresting.",
+    "2": "The response uses technical jargon instead of layman's terms.",
+    "3": "The response is accurate but poorly explained.",
+    "4": "The response is accurate, relevant, and well-illustrated for a layperson.",
+    "5": "The response emphasizes the significance of the data point with real-world context."
+  }
+}

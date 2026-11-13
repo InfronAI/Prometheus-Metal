@@ -1,0 +1,35 @@
+Starting training..., iters: 8
+Calculating loss...:   0%|          | 0/2 [00:00<?, ?it/s]Calculating loss...:  50%|█████     | 1/2 [00:04<00:04,  4.90s/it]Calculating loss...: 100%|██████████| 2/2 [00:08<00:00,  4.29s/it]Calculating loss...: 100%|██████████| 2/2 [00:08<00:00,  4.38s/it]
+Iter 1: Val loss 3.278, Val took 8.773s
+Iter 1: Train loss 2.203, Learning Rate 1.000e-05, It/sec 0.207, Tokens/sec 1.451, Trained Tokens 7, Peak mem 5.206 GB
+Iter 2: Train loss 3.566, Learning Rate 1.000e-05, It/sec 0.206, Tokens/sec 1.445, Trained Tokens 14, Peak mem 5.243 GB
+Iter 3: Train loss 2.029, Learning Rate 1.000e-05, It/sec 0.278, Tokens/sec 1.946, Trained Tokens 21, Peak mem 5.243 GB
+Iter 4: Train loss 2.789, Learning Rate 1.000e-05, It/sec 0.189, Tokens/sec 1.321, Trained Tokens 28, Peak mem 5.283 GB
+Iter 5: Train loss 3.739, Learning Rate 1.000e-05, It/sec 0.188, Tokens/sec 1.315, Trained Tokens 35, Peak mem 5.287 GB
+Iter 6: Train loss 4.053, Learning Rate 1.000e-05, It/sec 0.189, Tokens/sec 1.323, Trained Tokens 42, Peak mem 5.287 GB
+Iter 7: Train loss 2.472, Learning Rate 1.000e-05, It/sec 0.202, Tokens/sec 1.411, Trained Tokens 49, Peak mem 5.287 GB
+Calculating loss...:   0%|          | 0/2 [00:00<?, ?it/s]Calculating loss...:  50%|█████     | 1/2 [00:04<00:04,  4.68s/it]Calculating loss...: 100%|██████████| 2/2 [00:08<00:00,  4.19s/it]Calculating loss...: 100%|██████████| 2/2 [00:08<00:00,  4.27s/it]
+Iter 8: Val loss 2.324, Val took 8.539s
+Iter 8: Train loss 2.044, Learning Rate 1.000e-05, It/sec 0.213, Tokens/sec 1.493, Trained Tokens 56, Peak mem 5.287 GB
+Iter 8: Saved adapter weights to experiments/adapters/score_only/adapters.safetensors and experiments/adapters/score_only/0000008_adapters.safetensors.
+Saved final weights to experiments/adapters/score_only/adapters.safetensors.
+Calculating loss...:   0%|          | 0/2 [00:00<?, ?it/s]Calculating loss...:  50%|█████     | 1/2 [00:04<00:04,  4.68s/it]Calculating loss...: 100%|██████████| 2/2 [00:08<00:00,  4.19s/it]Calculating loss...: 100%|██████████| 2/2 [00:08<00:00,  4.26s/it]
+Calculating loss...:   0%|          | 0/2 [00:00<?, ?it/s]Calculating loss...:  50%|█████     | 1/2 [00:04<00:04,  4.09s/it]Calculating loss...: 100%|██████████| 2/2 [00:07<00:00,  3.96s/it]Calculating loss...: 100%|██████████| 2/2 [00:07<00:00,  3.98s/it]
+{
+  "steps": 8,
+  "final_validation_loss": 2.093703031539917,
+  "test_loss": 2.336103677749634,
+  "holdout_examples_evaluated_per_split": 2,
+  "elapsed_seconds": 73.23196174995974,
+  "peak_memory_gb": 5.287228806,
+  "adapter_sha256": "2d4e1f857c5b31534e78f96269c9a53e5d72bcba56323765c68650f92ba0cd52"
+}
+{
+  "steps": 8,
+  "final_validation_loss": 2.093703031539917,
+  "test_loss": 2.336103677749634,
+  "holdout_examples_evaluated_per_split": 2,
+  "elapsed_seconds": 73.23196174995974,
+  "peak_memory_gb": 5.287228806,
+  "adapter_sha256": "2d4e1f857c5b31534e78f96269c9a53e5d72bcba56323765c68650f92ba0cd52"
+}

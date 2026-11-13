@@ -1,0 +1,131 @@
+no_rubric: 1/10 row=140 status=ok score=1.0
+no_rubric: 2/10 row=271 status=ok score=3.0
+no_rubric: 3/10 row=419 status=ok score=5.0
+no_rubric: 4/10 row=593 status=ok score=5.0
+no_rubric: 5/10 row=627 status=ok score=5.0
+no_rubric: 6/10 row=634 status=ok score=5.0
+no_rubric: 7/10 row=647 status=incomplete score=None
+no_rubric: 8/10 row=691 status=ok score=2.0
+no_rubric: 9/10 row=815 status=ok score=2.0
+no_rubric: 10/10 row=853 status=incomplete score=None
+{
+  "rows": 10,
+  "complete": 8,
+  "coverage": 0.8,
+  "attempts": 13,
+  "attempt_status": {
+    "ok": 8,
+    "invalid_output": 5
+  },
+  "total_generation_seconds": 111.74364416487515,
+  "generation_tokens": 2329,
+  "peak_memory_gb": 5.018176074,
+  "latency_seconds": {
+    "median": 8.781457500066608,
+    "p95": 13.417318291217088
+  },
+  "gpt4_score": {
+    "n": 8,
+    "pearson": 0.9006987721462129,
+    "spearman": 0.9103200337476821,
+    "kendall_tau_b": 0.8292279828967711,
+    "reason": null,
+    "missing_labels": 0,
+    "pearson_ci95": {
+      "interval": [
+        0.7578314362052362,
+        0.9808029747857887
+      ],
+      "valid_bootstraps": 994,
+      "requested_bootstraps": 1000,
+      "instruction_groups": 8,
+      "method": "percentile cluster bootstrap",
+      "seed": 42
+    },
+    "mae": 0.625
+  },
+  "human_score": {
+    "n": 0,
+    "pearson": null,
+    "spearman": null,
+    "kendall_tau_b": null,
+    "reason": "fewer than three labelled complete rows",
+    "missing_labels": 10,
+    "pearson_ci95": {
+      "interval": null,
+      "reason": "fewer than three independent instruction groups"
+    },
+    "mae": null
+  },
+  "score_histogram": {
+    "1": 1,
+    "3": 1,
+    "5": 4,
+    "2": 2
+  },
+  "length_bias": {
+    "n": 8,
+    "pearson": 0.2839857639146044,
+    "spearman": 0.3192559026492481,
+    "kendall_tau_b": 0.28867513459481287,
+    "reason": null,
+    "interpretation": "Observational association, not a causal/adversarial bias test"
+  },
+  "planned_rows": 10,
+  "source_rows": 1000,
+  "full_dataset": false,
+  "protocol": {
+    "input_path": "evaluation/benchmark/data/feedback_collection_test.json",
+    "input_sha256": "3950f1f9f787bd512e5082bbc4071376c83e32d2ab0b11be88e236ed38ec69f8",
+    "source_rows": 1000,
+    "indices": [
+      140,
+      271,
+      419,
+      593,
+      627,
+      634,
+      647,
+      691,
+      815,
+      853
+    ],
+    "backend": {
+      "model": "/Users/apple/Projects/prometheus/artifacts/models/prometheus-7b-v1-4bit",
+      "conversion_sha256": "5b770ce24570e45432345fa747fd10af6db622f68ad6f723f04cc0c74886d411",
+      "adapter_sha256": "ff6e88291bd4e5c5b1d76d4387d0eed5da789624dd5b6fff7bfee228e2e4de7d",
+      "adapter_config_sha256": "913693c0542309c4461eceda8cbdf018f08bbee43e7dbd899fd73b11883b0e59",
+      "backend": "mlx",
+      "chat_format": "llama2"
+    },
+    "generation": {
+      "max_tokens": 256,
+      "temperature": 1.0,
+      "top_p": 0.9,
+      "repetition_penalty": 1.03,
+      "max_input_tokens": 3072,
+      "seed": 42
+    },
+    "mode": "absolute",
+    "repeats": 1,
+    "attempts": 2,
+    "variant": "no_rubric",
+    "tie_policy": "keep",
+    "tie_rounds": 3,
+    "protocol_version": 1,
+    "runtime_versions": {
+      "mlx": "0.32.4",
+      "mlx-lm": "0.31.3",
+      "torch": "2.10.0",
+      "transformers": "5.22.2",
+      "numpy": "2.4.6",
+      "scipy": "1.17.1"
+    },
+    "implementation_sha256": {
+      "evaluation.py": "f18268f8261ea9783fb77dbc52575675fe88ffc29c518dd65225f236f0cf70f0",
+      "prompts.py": "b4396e53e8925fe8a07723d084e2fd96c4c9982a4e64ecf97726ef30c8fc62c0",
+      "backends.py": "4d92619eac4f55e2da9a6e87a5801ea8679a422b9bc430470cf3c3ee71afeacb"
+    },
+    "sampling": "seeded round-robin label strata"
+  }
+}

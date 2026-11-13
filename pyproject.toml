@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prometheus-eval-local"
+version = "0.1.0"
+description = "Reproducible Prometheus v1 evaluation and training on Apple Silicon"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26", "scipy>=1.12", "requests>=2.31", "matplotlib>=3.8", "huggingface-hub>=0.24", "pyyaml>=6"]
+
+[project.optional-dependencies]
+mac = ["mlx-lm==0.31.3; sys_platform == 'darwin' and platform_machine == 'arm64'", "torch==2.10.0", "sentencepiece>=0.2"]
+torch = ["torch>=2.5", "transformers>=4.46", "peft>=0.14", "sentencepiece>=0.2"]
+dev = ["pytest>=8", "ruff>=0.15", "playwright>=1.48", "pillow>=10"]
+
+[project.scripts]
+prometheus = "prometheus_eval.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+prometheus_eval = ["web/*.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100

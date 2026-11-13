@@ -1,0 +1,52 @@
+{
+  "backend": {
+    "backend": "mlx",
+    "model": "artifacts/models/prometheus-7b-v1-4bit"
+  },
+  "generation": {
+    "max_tokens": 256,
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "repetition_penalty": 1.03,
+    "seed": 42,
+    "max_input_tokens": 3072
+  },
+  "tasks": [
+    {
+      "name": "full",
+      "input": "evaluation/benchmark/data/feedback_collection_test.json",
+      "mode": "absolute",
+      "limit": 10,
+      "repeats": 1,
+      "attempts": 2,
+      "variant": "full"
+    },
+    {
+      "name": "no_reference",
+      "input": "evaluation/benchmark/data/feedback_collection_test.json",
+      "mode": "absolute",
+      "limit": 10,
+      "repeats": 1,
+      "attempts": 2,
+      "variant": "no_reference"
+    },
+    {
+      "name": "no_rubric",
+      "input": "evaluation/benchmark/data/feedback_collection_test.json",
+      "mode": "absolute",
+      "limit": 10,
+      "repeats": 1,
+      "attempts": 2,
+      "variant": "no_rubric"
+    },
+    {
+      "name": "score_only",
+      "input": "evaluation/benchmark/data/feedback_collection_test.json",
+      "mode": "absolute",
+      "limit": 10,
+      "repeats": 1,
+      "attempts": 2,
+      "variant": "score_only"
+    }
+  ]
+}

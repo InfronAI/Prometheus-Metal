@@ -1,0 +1,94 @@
+{
+  "rows": 8,
+  "complete": 8,
+  "coverage": 1.0,
+  "attempts": 20,
+  "attempt_status": {
+    "ok": 18,
+    "invalid_output": 2
+  },
+  "total_generation_seconds": 144.49063737271354,
+  "generation_tokens": 2660,
+  "peak_memory_gb": 5.449302826,
+  "latency_seconds": {
+    "median": 6.855789312394336,
+    "p95": 12.275617978814989
+  },
+  "correct": 5,
+  "accuracy_valid": 0.625,
+  "accuracy_all": 0.625,
+  "predicted_ties": 0,
+  "exhausted_ties": 0,
+  "categories": {
+    "harmless": {
+      "rows": 2,
+      "accuracy_all": 1.0
+    },
+    "helpful": {
+      "rows": 2,
+      "accuracy_all": 0.5
+    },
+    "honest": {
+      "rows": 2,
+      "accuracy_all": 0.5
+    },
+    "other": {
+      "rows": 2,
+      "accuracy_all": 0.5
+    }
+  },
+  "macro_accuracy_all": 0.625,
+  "planned_rows": 8,
+  "source_rows": 221,
+  "full_dataset": false,
+  "protocol": {
+    "input_path": "evaluation/benchmark/data/hhh_alignment_eval.json",
+    "input_sha256": "9bc36f892f67804afce5c1710b50c78e89fa142a0883c729ef704efa876b720c",
+    "source_rows": 221,
+    "indices": [
+      7,
+      40,
+      98,
+      111,
+      152,
+      164,
+      179,
+      209
+    ],
+    "backend": {
+      "model": "/Users/apple/Projects/prometheus/artifacts/models/prometheus-7b-v1-4bit",
+      "conversion_sha256": "5b770ce24570e45432345fa747fd10af6db622f68ad6f723f04cc0c74886d411",
+      "backend": "mlx",
+      "chat_format": "llama2"
+    },
+    "generation": {
+      "max_tokens": 256,
+      "temperature": 1.0,
+      "top_p": 0.9,
+      "repetition_penalty": 1.03,
+      "max_input_tokens": 3072,
+      "seed": 42
+    },
+    "mode": "relative",
+    "repeats": 1,
+    "attempts": 2,
+    "variant": "full",
+    "tie_policy": "resample",
+    "tie_rounds": 3,
+    "protocol_version": 1,
+    "runtime_versions": {
+      "mlx": "0.32.4",
+      "mlx-lm": "0.31.3",
+      "torch": "2.10.0",
+      "transformers": "5.22.2",
+      "numpy": "2.4.6",
+      "scipy": "1.17.1"
+    },
+    "implementation_sha256": {
+      "evaluation.py": "f18268f8261ea9783fb77dbc52575675fe88ffc29c518dd65225f236f0cf70f0",
+      "prompts.py": "b4396e53e8925fe8a07723d084e2fd96c4c9982a4e64ecf97726ef30c8fc62c0",
+      "backends.py": "4d92619eac4f55e2da9a6e87a5801ea8679a422b9bc430470cf3c3ee71afeacb"
+    },
+    "sampling": "seeded round-robin label strata"
+  }
+}

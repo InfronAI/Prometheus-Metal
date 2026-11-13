@@ -1,0 +1,14 @@
+{
+  "sources": {
+    "left": {
+      "manifest_sha256": "6552bf6e6930aef51f05621da9e52a7fe9a5f19a36e5ffcf278b89f586b28cb8",
+      "predictions_sha256": "d4e1ad1734505f9e9adfead30d5cd6c3298d9b56567c3b60b3e645b4bbe240ce"
+    },
+    "right": {
+      "manifest_sha256": "0a539ec290752f6628c9cf732d9fad732e62ea3b22420fb25a8b6bf85ba94242",
+      "predictions_sha256": "ee0734d66b2de06af0654b47b88bd04d4e125556837c325443c3d152d19ad95c"
+    }
+  },
+  "seed": 42,
+  "note": "Source hashes attached after export; original task, key and blank annotation files unchanged."
+}

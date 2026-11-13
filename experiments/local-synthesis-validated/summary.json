@@ -1,0 +1,14 @@
+{
+  "calls": 8,
+  "accepted_rows": 0,
+  "failures": [
+    {
+      "rubric": 0,
+      "instruction": 0,
+      "reason": "Incomplete quality-controlled five-score group",
+      "accepted_before_group_filter": 4
+    }
+  ],
+  "complete": false,
+  "note": "Local teacher experiment; not GPT-4-0613 corpus regeneration"
+}

@@ -1,0 +1,113 @@
+{
+  "rows": 10,
+  "complete": 10,
+  "coverage": 1.0,
+  "attempts": 33,
+  "attempt_status": {
+    "ok": 30,
+    "invalid_output": 3
+  },
+  "total_generation_seconds": 314.91969920601696,
+  "generation_tokens": 4801,
+  "peak_memory_gb": 5.449302826,
+  "latency_seconds": {
+    "median": 8.198672000318766,
+    "p95": 14.928039191663265
+  },
+  "gpt4_score": {
+    "n": 0,
+    "pearson": null,
+    "spearman": null,
+    "kendall_tau_b": null,
+    "reason": "fewer than three labelled complete rows",
+    "missing_labels": 10,
+    "pearson_ci95": {
+      "interval": null,
+      "reason": "fewer than three independent instruction groups"
+    },
+    "mae": null
+  },
+  "human_score": {
+    "n": 0,
+    "pearson": null,
+    "spearman": null,
+    "kendall_tau_b": null,
+    "reason": "fewer than three labelled complete rows",
+    "missing_labels": 10,
+    "pearson_ci95": {
+      "interval": null,
+      "reason": "fewer than three independent instruction groups"
+    },
+    "mae": null
+  },
+  "score_histogram": {
+    "5": 10,
+    "3": 4,
+    "4": 11,
+    "2": 3,
+    "1": 2
+  },
+  "length_bias": {
+    "n": 10,
+    "pearson": 0.5648878011598439,
+    "spearman": 0.64834532835219,
+    "kendall_tau_b": 0.5520524474738834,
+    "reason": null,
+    "interpretation": "Observational association, not a causal/adversarial bias test"
+  },
+  "planned_rows": 10,
+  "source_rows": 320,
+  "full_dataset": false,
+  "protocol": {
+    "input_path": "evaluation/benchmark/data/mt_bench_eval.json",
+    "input_sha256": "83867ad29c2847a5d7272cfa6f0e7df5831170df340c5e3b4d652b17bcd83b68",
+    "source_rows": 320,
+    "indices": [
+      12,
+      44,
+      52,
+      57,
+      71,
+      114,
+      125,
+      140,
+      279,
+      302
+    ],
+    "backend": {
+      "model": "/Users/apple/Projects/prometheus/artifacts/models/prometheus-7b-v1-4bit",
+      "conversion_sha256": "5b770ce24570e45432345fa747fd10af6db622f68ad6f723f04cc0c74886d411",
+      "backend": "mlx",
+      "chat_format": "llama2"
+    },
+    "generation": {
+      "max_tokens": 256,
+      "temperature": 1.0,
+      "top_p": 0.9,
+      "repetition_penalty": 1.03,
+      "max_input_tokens": 3072,
+      "seed": 42
+    },
+    "mode": "absolute",
+    "repeats": 3,
+    "attempts": 2,
+    "variant": "full",
+    "tie_policy": "keep",
+    "tie_rounds": 3,
+    "protocol_version": 1,
+    "runtime_versions": {
+      "mlx": "0.32.4",
+      "mlx-lm": "0.31.3",
+      "torch": "2.10.0",
+      "transformers": "5.22.2",
+      "numpy": "2.4.6",
+      "scipy": "1.17.1"
+    },
+    "implementation_sha256": {
+      "evaluation.py": "f18268f8261ea9783fb77dbc52575675fe88ffc29c518dd65225f236f0cf70f0",
+      "prompts.py": "b4396e53e8925fe8a07723d084e2fd96c4c9982a4e64ecf97726ef30c8fc62c0",
+      "backends.py": "4d92619eac4f55e2da9a6e87a5801ea8679a422b9bc430470cf3c3ee71afeacb"
+    },
+    "sampling": "seeded round-robin label strata"
+  }
+}

@@ -1,0 +1,11 @@
+source_index,status,mean_score,gpt4_score,human_score,prediction,correct,response_words
+140,ok,1.0,1.0,,,,153
+271,ok,5.0,2.0,,,,63
+419,ok,5.0,5.0,,,,246
+593,incomplete,,4.0,,,,90
+627,ok,5.0,3.0,,,,93
+634,ok,5.0,5.0,,,,124
+647,ok,5.0,3.0,,,,222
+691,ok,3.0,2.0,,,,80
+815,ok,3.0,1.0,,,,58
+853,incomplete,,4.0,,,,199

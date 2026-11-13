@@ -1,0 +1,14 @@
+{
+  "model": "artifacts/models/prometheus-7b-v1-4bit",
+  "num_layers": 4,
+  "fine_tune_type": "lora",
+  "lora_parameters": {
+    "rank": 8,
+    "scale": 16.0,
+    "dropout": 0.0,
+    "keys": [
+      "self_attn.q_proj",
+      "self_attn.v_proj"
+    ]
+  }
+}

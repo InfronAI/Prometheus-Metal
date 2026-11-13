@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "timestamp_utc": "2026-11-12T14:48:58.538512+00:00",
+  "command": [
+    "/Users/apple/Projects/prometheus/.venv/bin/python",
+    "-m",
+    "prometheus_eval",
+    "benchmark",
+    "--model",
+    "artifacts/models/prometheus-7b-v1-4bit",
+    "--adapter",
+    "experiments/adapters/full",
+    "--input",
+    "evaluation/benchmark/data/feedback_collection_test.json",
+    "--output",
+    "experiments/training-ablations/full",
+    "--variant",
+    "full",
+    "--limit",
+    "10",
+    "--repeats",
+    "1"
+  ],
+  "rows": 10,
+  "predictions_sha256_before": "d4e1ad1734505f9e9adfead30d5cd6c3298d9b56567c3b60b3e645b4bbe240ce",
+  "predictions_sha256_after": "d4e1ad1734505f9e9adfead30d5cd6c3298d9b56567c3b60b3e645b4bbe240ce",
+  "elapsed_seconds": 8.121046250220388,
+  "note": "Existing measured run reopened with its real model and adapter. No prediction rows or raw attempts changed."
+}

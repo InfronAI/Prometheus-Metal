@@ -1,0 +1,230 @@
+[
+  {
+    "stage": "doctor",
+    "command": [
+      "doctor",
+      "--output",
+      "experiments/environment.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.18372808303683996
+  },
+  {
+    "stage": "audit",
+    "command": [
+      "audit-data",
+      "--output",
+      "experiments/data_audit.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.3781189997680485
+  },
+  {
+    "stage": "train-full",
+    "command": [
+      "train",
+      "--model",
+      "artifacts/models/prometheus-7b-v1-4bit",
+      "--data",
+      "experiments/training-data",
+      "--output",
+      "experiments/adapters/full",
+      "--variant",
+      "full",
+      "--steps",
+      "8"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 100.33196299988776
+  },
+  {
+    "stage": "eval-trained-full",
+    "command": [
+      "benchmark",
+      "--model",
+      "artifacts/models/prometheus-7b-v1-4bit",
+      "--adapter",
+      "experiments/adapters/full",
+      "--input",
+      "evaluation/benchmark/data/feedback_collection_test.json",
+      "--output",
+      "experiments/training-ablations/full",
+      "--variant",
+      "full",
+      "--limit",
+      "10",
+      "--repeats",
+      "1"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 120.00757937459275
+  },
+  {
+    "stage": "train-no_reference",
+    "command": [
+      "train",
+      "--model",
+      "artifacts/models/prometheus-7b-v1-4bit",
+      "--data",
+      "experiments/training-data",
+      "--output",
+      "experiments/adapters/no_reference",
+      "--variant",
+      "no_reference",
+      "--steps",
+      "8"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 71.0354573330842
+  },
+  {
+    "stage": "eval-trained-no_reference",
+    "command": [
+      "benchmark",
+      "--model",
+      "artifacts/models/prometheus-7b-v1-4bit",
+      "--adapter",
+      "experiments/adapters/no_reference",
+      "--input",
+      "evaluation/benchmark/data/feedback_collection_test.json",
+      "--output",
+      "experiments/training-ablations/no_reference",
+      "--variant",
+      "no_reference",
+      "--limit",
+      "10",
+      "--repeats",
+      "1"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 69.79904258297756
+  },
+  {
+    "stage": "train-no_rubric",
+    "command": [
+      "train",
+      "--model",
+      "artifacts/models/prometheus-7b-v1-4bit",
+      "--data",
+      "experiments/training-data",
+      "--output",
+      "experiments/adapters/no_rubric",
+      "--variant",
+      "no_rubric",
+      "--steps",
+      "8"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 85.97702466696501
+  },
+  {
+    "stage": "eval-trained-no_rubric",
+    "command": [
+      "benchmark",
+      "--model",
+      "artifacts/models/prometheus-7b-v1-4bit",
+      "--adapter",
+      "experiments/adapters/no_rubric",
+      "--input",
+      "evaluation/benchmark/data/feedback_collection_test.json",
+      "--output",
+      "experiments/training-ablations/no_rubric",
+      "--variant",
+      "no_rubric",
+      "--limit",
+      "10",
+      "--repeats",
+      "1"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 120.41956754215062
+  },
+  {
+    "stage": "train-score_only",
+    "command": [
+      "train",
+      "--model",
+      "artifacts/models/prometheus-7b-v1-4bit",
+      "--data",
+      "experiments/training-data",
+      "--output",
+      "experiments/adapters/score_only",
+      "--variant",
+      "score_only",
+      "--steps",
+      "8"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 81.26209254097193
+  },
+  {
+    "stage": "eval-trained-score_only",
+    "command": [
+      "benchmark",
+      "--model",
+      "artifacts/models/prometheus-7b-v1-4bit",
+      "--adapter",
+      "experiments/adapters/score_only",
+      "--input",
+      "evaluation/benchmark/data/feedback_collection_test.json",
+      "--output",
+      "experiments/training-ablations/score_only",
+      "--variant",
+      "score_only",
+      "--limit",
+      "10",
+      "--repeats",
+      "1"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 116.64750133408234
+  },
+  {
+    "stage": "training-report",
+    "command": [
+      "analyze",
+      "--suite",
+      "experiments/training-ablations"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 1.466748083010316
+  },
+  {
+    "stage": "benchmarks",
+    "command": [
+      "suite",
+      "--config",
+      "experiments/evaluation-config.json",
+      "--output",
+      "experiments/mac-validation"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 1659.4094068747945
+  },
+  {
+    "stage": "prompt-ablations",
+    "command": [
+      "suite",
+      "--config",
+      "experiments/prompt-config.json",
+      "--output",
+      "experiments/prompt-ablations"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 412.25678529124707
+  },
+  {
+    "stage": "demo",
+    "command": [
+      "evaluate",
+      "--model",
+      "artifacts/models/prometheus-7b-v1-4bit",
+      "--max-tokens",
+      "384",
+      "--output",
+      "experiments/demo.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 13.618094875011593
+  }
+]

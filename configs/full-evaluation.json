@@ -1,0 +1,79 @@
+{
+  "backend": {
+    "backend": "mlx",
+    "model": "artifacts/models/prometheus-7b-v1-4bit"
+  },
+  "generation": {
+    "max_tokens": 256,
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "repetition_penalty": 1.03,
+    "seed": 42,
+    "max_input_tokens": 3072
+  },
+  "tasks": [
+    {
+      "name": "feedback_seen",
+      "input": "evaluation/benchmark/data/feedback_collection_test.json",
+      "mode": "absolute",
+      "repeats": 3,
+      "attempts": 2,
+      "tie_policy": "keep",
+      "tie_rounds": 3
+    },
+    {
+      "name": "feedback_unseen",
+      "input": "evaluation/benchmark/data/feedback_collection_ood_test.json",
+      "mode": "absolute",
+      "repeats": 3,
+      "attempts": 2,
+      "tie_policy": "keep",
+      "tie_rounds": 3
+    },
+    {
+      "name": "vicuna",
+      "input": "evaluation/benchmark/data/vicuna_eval.json",
+      "mode": "absolute",
+      "repeats": 3,
+      "attempts": 2,
+      "tie_policy": "keep",
+      "tie_rounds": 3
+    },
+    {
+      "name": "mt_bench",
+      "input": "evaluation/benchmark/data/mt_bench_eval.json",
+      "mode": "absolute",
+      "repeats": 3,
+      "attempts": 2,
+      "tie_policy": "keep",
+      "tie_rounds": 3
+    },
+    {
+      "name": "flask",
+      "input": "evaluation/benchmark/data/flask_eval.json",
+      "mode": "absolute",
+      "repeats": 3,
+      "attempts": 2,
+      "tie_policy": "keep",
+      "tie_rounds": 3
+    },
+    {
+      "name": "hhh",
+      "input": "evaluation/benchmark/data/hhh_alignment_eval.json",
+      "mode": "relative",
+      "repeats": 3,
+      "attempts": 2,
+      "tie_policy": "resample",
+      "tie_rounds": 3
+    },
+    {
+      "name": "mt_human",
+      "input": "evaluation/benchmark/data/mt_bench_human_judgement_eval.json",
+      "mode": "relative",
+      "repeats": 3,
+      "attempts": 2,
+      "tie_policy": "keep",
+      "tie_rounds": 3
+    }
+  ]
+}

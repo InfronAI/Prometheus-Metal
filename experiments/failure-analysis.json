@@ -1,0 +1,179 @@
+{
+  "mac-validation/feedback_seen": {
+    "attempts": 31,
+    "invalid_attempts": 1,
+    "invalid_at_output_limit": 0,
+    "failure_reasons": {
+      "Expected terminal [RESULT] followed by one integer in 1..5": 1
+    },
+    "incomplete_source_indices": [],
+    "score_only_valid_grades": 0,
+    "score_only_valid_grades_with_feedback": 0
+  },
+  "mac-validation/feedback_unseen": {
+    "attempts": 31,
+    "invalid_attempts": 1,
+    "invalid_at_output_limit": 1,
+    "failure_reasons": {
+      "Expected exactly one [RESULT] marker": 1
+    },
+    "incomplete_source_indices": [],
+    "score_only_valid_grades": 0,
+    "score_only_valid_grades_with_feedback": 0
+  },
+  "mac-validation/flask": {
+    "attempts": 30,
+    "invalid_attempts": 0,
+    "invalid_at_output_limit": 0,
+    "failure_reasons": {},
+    "incomplete_source_indices": [],
+    "score_only_valid_grades": 0,
+    "score_only_valid_grades_with_feedback": 0
+  },
+  "mac-validation/hhh": {
+    "attempts": 20,
+    "invalid_attempts": 2,
+    "invalid_at_output_limit": 0,
+    "failure_reasons": {
+      "Expected exactly one [RESULT] marker": 2
+    },
+    "incomplete_source_indices": [],
+    "score_only_valid_grades": 0,
+    "score_only_valid_grades_with_feedback": 0
+  },
+  "mac-validation/mt_bench": {
+    "attempts": 33,
+    "invalid_attempts": 3,
+    "invalid_at_output_limit": 2,
+    "failure_reasons": {
+      "Expected terminal [RESULT] followed by one integer in 1..5": 1,
+      "Expected exactly one [RESULT] marker": 2
+    },
+    "incomplete_source_indices": [],
+    "score_only_valid_grades": 0,
+    "score_only_valid_grades_with_feedback": 0
+  },
+  "mac-validation/mt_human": {
+    "attempts": 20,
+    "invalid_attempts": 4,
+    "invalid_at_output_limit": 1,
+    "failure_reasons": {
+      "Expected exactly one [RESULT] marker": 4
+    },
+    "incomplete_source_indices": [],
+    "score_only_valid_grades": 0,
+    "score_only_valid_grades_with_feedback": 0
+  },
+  "mac-validation/vicuna": {
+    "attempts": 33,
+    "invalid_attempts": 3,
+    "invalid_at_output_limit": 2,
+    "failure_reasons": {
+      "Expected exactly one [RESULT] marker": 3
+    },
+    "incomplete_source_indices": [],
+    "score_only_valid_grades": 0,
+    "score_only_valid_grades_with_feedback": 0
+  },
+  "training-ablations/full": {
+    "attempts": 12,
+    "invalid_attempts": 2,
+    "invalid_at_output_limit": 2,
+    "failure_reasons": {
+      "Expected exactly one [RESULT] marker": 2
+    },
+    "incomplete_source_indices": [],
+    "score_only_valid_grades": 0,
+    "score_only_valid_grades_with_feedback": 0
+  },
+  "training-ablations/no_reference": {
+    "attempts": 10,
+    "invalid_attempts": 0,
+    "invalid_at_output_limit": 0,
+    "failure_reasons": {},
+    "incomplete_source_indices": [],
+    "score_only_valid_grades": 0,
+    "score_only_valid_grades_with_feedback": 0
+  },
+  "training-ablations/no_rubric": {
+    "attempts": 13,
+    "invalid_attempts": 5,
+    "invalid_at_output_limit": 5,
+    "failure_reasons": {
+      "Expected exactly one [RESULT] marker": 5
+    },
+    "incomplete_source_indices": [
+      647,
+      853
+    ],
+    "score_only_valid_grades": 0,
+    "score_only_valid_grades_with_feedback": 0
+  },
+  "training-ablations/score_only": {
+    "attempts": 15,
+    "invalid_attempts": 7,
+    "invalid_at_output_limit": 0,
+    "failure_reasons": {
+      "Expected exactly one [RESULT] marker": 5,
+      "Expected terminal [RESULT] followed by one integer in 1..5": 2
+    },
+    "incomplete_source_indices": [
+      593,
+      853
+    ],
+    "score_only_valid_grades": 8,
+    "score_only_valid_grades_with_feedback": 8
+  },
+  "prompt-ablations/full": {
+    "attempts": 11,
+    "invalid_attempts": 1,
+    "invalid_at_output_limit": 0,
+    "failure_reasons": {
+      "Expected terminal [RESULT] followed by one integer in 1..5": 1
+    },
+    "incomplete_source_indices": [],
+    "score_only_valid_grades": 0,
+    "score_only_valid_grades_with_feedback": 0
+  },
+  "prompt-ablations/no_reference": {
+    "attempts": 10,
+    "invalid_attempts": 0,
+    "invalid_at_output_limit": 0,
+    "failure_reasons": {},
+    "incomplete_source_indices": [],
+    "score_only_valid_grades": 0,
+    "score_only_valid_grades_with_feedback": 0
+  },
+  "prompt-ablations/no_rubric": {
+    "attempts": 15,
+    "invalid_attempts": 6,
+    "invalid_at_output_limit": 4,
+    "failure_reasons": {
+      "Expected exactly one [RESULT] marker": 5,
+      "Expected terminal [RESULT] followed by one integer in 1..5": 1
+    },
+    "incomplete_source_indices": [
+      853
+    ],
+    "score_only_valid_grades": 0,
+    "score_only_valid_grades_with_feedback": 0
+  },
+  "prompt-ablations/score_only": {
+    "attempts": 16,
+    "invalid_attempts": 11,
+    "invalid_at_output_limit": 1,
+    "failure_reasons": {
+      "Expected exactly one [RESULT] marker": 9,
+      "Expected terminal [RESULT] followed by one integer in 1..5": 2
+    },
+    "incomplete_source_indices": [
+      140,
+      271,
+      419,
+      627,
+      853
+    ],
+    "score_only_valid_grades": 5,
+    "score_only_valid_grades_with_feedback": 5
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "runs": [
+    {
+      "run": "experiments/mac-validation/feedback_seen",
+      "verified_rows": 10
+    },
+    {
+      "run": "experiments/mac-validation/feedback_unseen",
+      "verified_rows": 10
+    },
+    {
+      "run": "experiments/mac-validation/flask",
+      "verified_rows": 10
+    },
+    {
+      "run": "experiments/mac-validation/hhh",
+      "verified_rows": 8
+    },
+    {
+      "run": "experiments/mac-validation/mt_bench",
+      "verified_rows": 10
+    },
+    {
+      "run": "experiments/mac-validation/mt_human",
+      "verified_rows": 8
+    },
+    {
+      "run": "experiments/mac-validation/vicuna",
+      "verified_rows": 10
+    },
+    {
+      "run": "experiments/training-ablations/full",
+      "verified_rows": 10
+    },
+    {
+      "run": "experiments/training-ablations/no_reference",
+      "verified_rows": 10
+    },
+    {
+      "run": "experiments/training-ablations/no_rubric",
+      "verified_rows": 10
+    },
+    {
+      "run": "experiments/training-ablations/score_only",
+      "verified_rows": 10
+    },
+    {
+      "run": "experiments/prompt-ablations/full",
+      "verified_rows": 10
+    },
+    {
+      "run": "experiments/prompt-ablations/no_reference",
+      "verified_rows": 10
+    },
+    {
+      "run": "experiments/prompt-ablations/no_rubric",
+      "verified_rows": 10
+    },
+    {
+      "run": "experiments/prompt-ablations/score_only",
+      "verified_rows": 10
+    }
+  ],
+  "verified_prediction_rows": 146,
+  "verified_training_adapters": 4,
+  "checked_local_document_links": 84,
+  "video_hashes_verified": true,
+  "converted_model_weights_verified": true,
+  "human_study_sources_verified": true,
+  "training_groups_disjoint": true,
+  "training_ablation_order_identical": true
+}

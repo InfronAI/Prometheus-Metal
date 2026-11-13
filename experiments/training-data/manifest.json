@@ -1,0 +1,91 @@
+{
+  "source_sha256": "bd6ae6f6da5035c180b4ac398fce7cdd04a2f6d48bff29ef21ce9865a348ddd5",
+  "source_rows": 99952,
+  "seed": 42,
+  "selected_groups": 40,
+  "split_unit": "original instruction text",
+  "excluded_benchmark_overlap_rows": 0,
+  "invalid_rows": [],
+  "splits": {
+    "valid": {
+      "rows": 20,
+      "groups": [
+        "01b31959f51c5f398bf9f4b45dde9686c6cdc518cd3dd0a7fa192a05b25f63a5",
+        "fdcc911f7603c286ef4b44e57763d45f5ca4696ee643551dc2905ab026fbbc75",
+        "5bba7e539b62fe843e9880356c29d565dfd1d6f748ef09e5f85a67b7cfb6d606",
+        "26be4c93027a27b6b0d834c2cfb0bf471a406c06282ff67ab5314a1cbae8d089"
+      ],
+      "scores": {
+        "5": 4,
+        "3": 4,
+        "2": 4,
+        "1": 4,
+        "4": 4
+      },
+      "sha256": "a61e3518c38fcfc3cc4d2950b12b4ada740f4ea631d3dfc3cb5599f9d5dfade1"
+    },
+    "test": {
+      "rows": 20,
+      "groups": [
+        "6ff3238f810a1cb3f9284e680bb238ed423667ae2b6835c0f8fea88caa36fefc",
+        "1a597e9e65f6d25c347451619d48df3b587eac7aecf9348e6c9c8892fd3c4b1c",
+        "17385b92746c1e256bb8c71900f23988a7e41bc3e086e65a3a7df91dcf9f5e3b",
+        "3f28b142193b48c561203f149a6ec6b76a272bc0f9143cac105254780416c737"
+      ],
+      "scores": {
+        "5": 4,
+        "3": 4,
+        "1": 4,
+        "4": 4,
+        "2": 4
+      },
+      "sha256": "858b4431b5ff4136a78445a05c07a143ada357ec2f4406075a452dbf40687106"
+    },
+    "train": {
+      "rows": 160,
+      "groups": [
+        "8fde929f359c9478a2351005eac31898ab417c9f2db00641df3da48d2b71d550",
+        "d7d6e9b44bc5e10e21502f6bf7c14bb25e44c238bc4037d44b4a7e2906134617",
+        "43d94a01e6128a660ad7ddd6d2b52824c8f52d46433aaecbedb2379a0f9ab466",
+        "3516c5a8197da7c978de6be83457c65324084eddc89b00120441a8b7984babe2",
+        "aaf04c4a1f83e1a1d1b35a8de75fa0cc32a381a683cc5258d644c9ba7ebcfb8d",
+        "648ad61c769a68acba832494ab0cdaff1ab028fcace9b22980d7568db952d55c",
+        "5b2ffa887d3e369dda282cd607bc6f9d65b6e1d11f4282084b869de998134a88",
+        "311fade7951fd4daa0327e5f965fd57c92d2f406f11b24e890d73c1bb7f33be6",
+        "ba04aa0f7f33bacdb2e2ec6c4ba6fdf08a6bce1e9f3aec234bc5d3d4e2715051",
+        "149f45fb869d75585a8a6f9fa5affd4bc1285b65641c19efb098bbc960387c2f",
+        "ded95817297ff883233e2cdb17ce55f29dfee5a6c6552cb4b5ad776e36b6b84b",
+        "eb7c988cd905245069c26d802652da3cd08343d319d3fe314bea6efd3461669c",
+        "024e65f0eb7f38d507c9e91c5380050421f1cc6a0dee3d630a14c48532cb3d8c",
+        "c94135fb4c00153acfe1eb0c0327b00b8e77d172bae10d55303f9b74370fa460",
+        "8ca0ee459db87a8c0a344eb738efbf6208cfc0463255555860fc1ba65d06ee7d",
+        "f31622d2f5d90a3ba49cbf9cf701392c355691d8a087ce2bef97a02eb5956ad0",
+        "54deed86dc55f522b4de690dfcfd0cd0f36774899abfcf59ec0c8607b7863236",
+        "70e776ceac52d192b66f8ec9743faa79d27596a1a8f91be6822cbb1e07e45b84",
+        "214707575baa8887c2680bb16db0025c4bdf043159a9c0c74f42ac0662bfd77b",
+        "7582233b7b90dd8f2a8b519e0209fe0445b56d55e43ddddde19366a50e0a20b9",
+        "e6a7435d956ea1e8a47642f85376aba08f17038944386aed9f269f11070fe9ee",
+        "25846a0571f1e86aaf018bdab4f8ba10efc3a4b04505e972da5436452d368039",
+        "89561fe63c5e980c98bc95e779e7083bd678f2b84e4f7e1ac2f78552ae2e58b8",
+        "2488b70fef6e2fb664042ecd5f169696ca6d8d78497051d997bf58e3e643ffeb",
+        "03bc2c4c48cb2fa9ec25a164a98c8096e35e7c1c05e58cd6880bd7700bc07a69",
+        "97fed8d9ed7895a7872a936732b2e58c34b549390e309ef6d89c2ec30774fe67",
+        "01ad7fc1c298d2e0bce0c2d01c48f91e212e71ec7c1fae96538e2e4556f76a6c",
+        "b49bab71e767a58a535e6dfc1c982c4600b2005019e515a4bc405c99cfea7911",
+        "b9dcfbe0eef8fdfbe99f0d7290c53b60e5cca55188da29756bb1fea69d50f009",
+        "d4911497375c02a5a4dc68784160d33e17baeaf5f5a150131b0aee2d93dd7ddf",
+        "0620ff85c73a727fc53c6df90b17a29964c21df1bbe8af334cc913ddbe7de318",
+        "2df01429d2355a2cd458fa8e0f3adb2680dd32cd9d6c187d18ac2de94198a2b2"
+      ],
+      "scores": {
+        "5": 32,
+        "4": 32,
+        "3": 32,
+        "2": 32,
+        "1": 32
+      },
+      "sha256": "5cf1469a4e9314dcc4b9360b71f88d47600ae572b5b572c41a8a217788cda964"
+    }
+  },
+  "incomplete_or_unbalanced_groups": 21
+}

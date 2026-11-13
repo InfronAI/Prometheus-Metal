@@ -1,0 +1,114 @@
+{
+  "feedback_seen": {
+    "path": "evaluation/benchmark/data/feedback_collection_test.json",
+    "sha256": "3950f1f9f787bd512e5082bbc4071376c83e32d2ab0b11be88e236ed38ec69f8",
+    "rows": 1000,
+    "mode": "absolute",
+    "field_coverage": {
+      "idx": 1000,
+      "instruction": 1000,
+      "gpt4_score": 1000,
+      "gpt4_feedback": 1000
+    },
+    "exact_duplicate_rows": 0,
+    "instruction_groups": 1000,
+    "gpt4_labels_missing": 0,
+    "human_labels_missing": 1000
+  },
+  "feedback_unseen": {
+    "path": "evaluation/benchmark/data/feedback_collection_ood_test.json",
+    "sha256": "e1825480bf4b490024c3dce29d11018f3c3c07d3c0d0c07db43abf2fc04d488e",
+    "rows": 1000,
+    "mode": "absolute",
+    "field_coverage": {
+      "idx": 1000,
+      "instruction": 1000,
+      "gpt4_score": 1000,
+      "gpt4_feedback": 1000
+    },
+    "exact_duplicate_rows": 0,
+    "instruction_groups": 200,
+    "gpt4_labels_missing": 0,
+    "human_labels_missing": 1000
+  },
+  "vicuna": {
+    "path": "evaluation/benchmark/data/vicuna_eval.json",
+    "sha256": "01de7e9fb496f28f618fdc56f24a165a0caebd3b9f9bc6bc0f036a6edf1ec7fd",
+    "rows": 320,
+    "mode": "absolute",
+    "field_coverage": {
+      "idx": 320,
+      "response_source": 320,
+      "category": 320,
+      "instruction": 320,
+      "gpt4_score": 320,
+      "gpt4_feedback": 320
+    },
+    "exact_duplicate_rows": 0,
+    "instruction_groups": 80,
+    "gpt4_labels_missing": 0,
+    "human_labels_missing": 320
+  },
+  "mt_bench": {
+    "path": "evaluation/benchmark/data/mt_bench_eval.json",
+    "sha256": "83867ad29c2847a5d7272cfa6f0e7df5831170df340c5e3b4d652b17bcd83b68",
+    "rows": 320,
+    "mode": "absolute",
+    "field_coverage": {
+      "idx": 320,
+      "response_source": 320,
+      "category": 320,
+      "instruction": 320
+    },
+    "exact_duplicate_rows": 0,
+    "instruction_groups": 318,
+    "gpt4_labels_missing": 320,
+    "human_labels_missing": 320
+  },
+  "flask": {
+    "path": "evaluation/benchmark/data/flask_eval.json",
+    "sha256": "023e2e17b0208fd31b8ec009438a6a87e0026be7cce85e61677afb58692bc137",
+    "rows": 2001,
+    "mode": "absolute",
+    "field_coverage": {
+      "idx": 2001,
+      "response_source": 2001,
+      "criteria": 2001,
+      "instruction": 2001,
+      "human_score": 2001,
+      "gpt4_score": 2001
+    },
+    "exact_duplicate_rows": 0,
+    "instruction_groups": 168,
+    "gpt4_labels_missing": 0,
+    "human_labels_missing": 0
+  },
+  "hhh": {
+    "path": "evaluation/benchmark/data/hhh_alignment_eval.json",
+    "sha256": "9bc36f892f67804afce5c1710b50c78e89fa142a0883c729ef704efa876b720c",
+    "rows": 221,
+    "mode": "relative",
+    "field_coverage": {
+      "source": 221,
+      "chosen_instruction": 221,
+      "rejected_instruction": 221
+    },
+    "exact_duplicate_rows": 0,
+    "ties": 0,
+    "missing_tie_defaults_to_non_tie": 221
+  },
+  "mt_human": {
+    "path": "evaluation/benchmark/data/mt_bench_human_judgement_eval.json",
+    "sha256": "63266aa8a3c6327aff814a1a7e33bb017881e849a6e0bd1749a5d813ad016f4f",
+    "rows": 1431,
+    "mode": "relative",
+    "field_coverage": {
+      "chosen_instruction": 1431,
+      "rejected_instruction": 1431,
+      "tie": 1431
+    },
+    "exact_duplicate_rows": 454,
+    "ties": 411,
+    "missing_tie_defaults_to_non_tie": 0
+  }
+}

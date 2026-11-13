@@ -1,0 +1,84 @@
+{
+  "training-ablations": {
+    "common_complete_rows": 7,
+    "row_ids": [
+      "038f1fe06d71ed116a743ae5854352a589ec990e89a278c4d92454f99f35cb81",
+      "668f6bdc3fcbd9b4e5ce63a9c19df199b96318375e7aa8a11e5fabf41ef4ae28",
+      "721b7f7dbb658110b74383dce1a95d52fea22d28e3dc9138e175bd8ae3f1e62a",
+      "a9530b51f2cfbb1ba67f9f48b59d34cfa5ee67c6edcbc5f15396aedafebf6bd5",
+      "ce484386cb9e23400c63d8f17b3664285830a0c98ac9c5c66183be9f79462902",
+      "d026f7628df7172b3ab875ecefc802fd306008f3bcdcfbc96b531e17e8d14159",
+      "d48d2e3c2362598c71b2e8e47f04c7c0341998cca2be7f7161394f121b597358"
+    ],
+    "variants": {
+      "full": {
+        "n": 7,
+        "pearson": 0.9291061652670811,
+        "spearman": 0.9424819839382049,
+        "kendall_tau_b": 0.9146591207600472,
+        "reason": null
+      },
+      "no_reference": {
+        "n": 7,
+        "pearson": 0.6258070970047587,
+        "spearman": 0.6582130830318729,
+        "kendall_tau_b": 0.6085806194501846,
+        "reason": null
+      },
+      "no_rubric": {
+        "n": 7,
+        "pearson": 0.8934426229508194,
+        "spearman": 0.9232476577353845,
+        "kendall_tau_b": 0.8574929257125442,
+        "reason": null
+      },
+      "score_only": {
+        "n": 7,
+        "pearson": 0.7279763448341457,
+        "spearman": 0.8292984077258342,
+        "kendall_tau_b": 0.7559289460184545,
+        "reason": null
+      }
+    }
+  },
+  "prompt-ablations": {
+    "common_complete_rows": 5,
+    "row_ids": [
+      "038f1fe06d71ed116a743ae5854352a589ec990e89a278c4d92454f99f35cb81",
+      "0394ad0e3e22781872713a65cbaa82fd6ec275e716b41159054e95650a310895",
+      "524b79e83a0550b2ce64fc6c0e033eddf090e85520b45e5678613538ff9764cf",
+      "721b7f7dbb658110b74383dce1a95d52fea22d28e3dc9138e175bd8ae3f1e62a",
+      "d026f7628df7172b3ab875ecefc802fd306008f3bcdcfbc96b531e17e8d14159"
+    ],
+    "variants": {
+      "full": {
+        "n": 5,
+        "pearson": 0.8838834764831844,
+        "spearman": 0.8720815992723809,
+        "kendall_tau_b": 0.7378647873726218,
+        "reason": null
+      },
+      "no_reference": {
+        "n": 5,
+        "pearson": 0.5773502691896257,
+        "spearman": 0.6708203932499368,
+        "kendall_tau_b": 0.5976143046671968,
+        "reason": null
+      },
+      "no_rubric": {
+        "n": 5,
+        "pearson": 0.42257712736425823,
+        "spearman": 0.5270462766947298,
+        "kendall_tau_b": 0.44721359549995787,
+        "reason": null
+      },
+      "score_only": {
+        "n": 5,
+        "pearson": 0.7826237921249264,
+        "spearman": 0.7826237921249264,
+        "kendall_tau_b": 0.5976143046671968,
+        "reason": null
+      }
+    }
+  }
+}
