@@ -12,7 +12,9 @@
 
 ## 演示视频
 
-[![Prometheus 本地真实运行](docs/media/demo-poster.png)](docs/media/prometheus-m1-demo.mp4)
+[![Prometheus 本地真实运行：4 倍速动态预览](docs/media/prometheus-m1-demo.gif)](docs/media/prometheus-m1-demo.mp4)
+
+*上方为 4 倍速循环 GIF 预览，点击可打开连续录制的原速 MP4。GIF 自动播放受你的 [GitHub 动效设置](https://docs.github.com/en/account-and-profile/how-tos/account-settings/managing-accessibility-settings#managing-motion)控制。*
 
 **[播放 MP4 视频](docs/media/prometheus-m1-demo.mp4)** · [GIF 预览](docs/media/prometheus-m1-demo.gif) · [录制说明](docs/media/README.md)
 

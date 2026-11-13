@@ -12,7 +12,9 @@ The maintained workflow supports model preparation, completion-only QLoRA traini
 
 ## Watch the demo
 
-[![Prometheus live local evaluation](docs/media/demo-poster.png)](docs/media/prometheus-m1-demo.mp4)
+[![Prometheus live local evaluation — 4× animated preview](docs/media/prometheus-m1-demo.gif)](docs/media/prometheus-m1-demo.mp4)
+
+*Looping GIF preview at 4× speed. Click it to open the continuous, real-time MP4. GIF autoplay follows your [GitHub motion settings](https://docs.github.com/en/account-and-profile/how-tos/account-settings/managing-accessibility-settings#managing-motion).*
 
 **[Play the demo video · MP4](docs/media/prometheus-m1-demo.mp4)** · [Animated preview](docs/media/prometheus-m1-demo.gif) · [Recording provenance](docs/media/README.md)
 
